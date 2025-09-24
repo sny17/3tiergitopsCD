@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: sny17/frontend:74019bfb1a688b9aa0cfb5fead16460a605edc5a
+          image: sny17/frontend:6b8b3f0b9e5c4a324dd3fcef5ac085536c6a1450
           ports:
             - containerPort: 80
 ---

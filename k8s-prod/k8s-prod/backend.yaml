@@ -1,4 +1,5 @@
---- 
+---
+
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -18,7 +19,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: sny17/backend:74019bfb1a688b9aa0cfb5fead16460a605edc5a
+          image: sny17/backend:6b8b3f0b9e5c4a324dd3fcef5ac085536c6a1450
           ports:
             - containerPort: 5000
           env:
