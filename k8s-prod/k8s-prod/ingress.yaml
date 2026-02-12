@@ -21,7 +21,7 @@ spec:
         pathType: Prefix
         backend:
           service: { name: frontend-svc, port: { number: 80 } }
-  - host: www.adityajaiswal.com
+  - host: www.sathya.fun
     http:
       paths:
       - path: /api
